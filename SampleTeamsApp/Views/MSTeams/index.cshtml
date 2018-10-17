@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Teams App Sample";
+    Layout = "~/Views/Shared/_LayoutMSTeams.cshtml";
+}
+
+@section Header
+{
+    @Scripts.Render("~/Scripts/TeamsAppContextInitializer.js")
+}
+
+
+<h2>Context Data:</h2>
+<div id="contextOutput"></div>
+
