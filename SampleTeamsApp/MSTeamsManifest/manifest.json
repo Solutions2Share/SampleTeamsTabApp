@@ -1,0 +1,42 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "1.0.0",
+    "id": "a5209ce5-3162-4500-bccb-37cdb645dd46",
+    "packageName": "solutions2share.teams.mvcsample",
+    "developer": {
+        "name": "Solutions2Share UG",
+        "websiteUrl": "solutions2share.net",
+        "privacyUrl": "solutions2share.net",
+        "termsOfUseUrl": "solutions2share.net"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "MVC Sample",
+        "full": "MVC Sample App ngrok"
+    },
+    "description": {
+        "short": "MVC Sample App ngrok",
+        "full": "MVC Sample App with ngrok"
+    },
+    "accentColor": "#FFFFFF",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://0f442812.ngrok.io/MSTeams/configuration",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "0f442812.ngrok.io"
+    ]
+}
